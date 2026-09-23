@@ -5,6 +5,7 @@ name: Publish Job
 blocks:
   - { id: job-detail, kind: readmodel, title: Job Detail }
   - { id: publish-job, kind: command, title: Publish Job }
+  - { id: new-aggregate, kind: aggregate, title: New aggregate }
 
 connections:
   - { from: job-detail, to: publish-job }
