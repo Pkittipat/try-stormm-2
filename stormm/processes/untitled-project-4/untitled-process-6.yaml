@@ -10,7 +10,7 @@ blocks:
     title: Job
     fields:
       - { name: id, type: string }
-      - { name: field, type: string }
+      - { name: title, type: string }
   - { id: job-published, kind: event, title: Job Published }
 
 connections:
