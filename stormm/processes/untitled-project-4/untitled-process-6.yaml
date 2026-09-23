@@ -10,9 +10,9 @@ blocks:
     title: Job
     fields:
       - { name: id, type: string }
-  - { id: new-event, kind: event, title: New event }
+  - { id: job-published, kind: event, title: Job Published }
 
 connections:
   - { from: job-detail, to: publish-job }
   - { from: publish-job, to: job }
-  - { from: job, to: new-event }
+  - { from: job, to: job-published }
