@@ -4,3 +4,7 @@ name: Publish Job
 
 blocks:
   - { id: job-detail, kind: readmodel, title: Job Detail }
+  - { id: new-command, kind: command, title: New command }
+
+connections:
+  - { from: job-detail, to: new-command }
