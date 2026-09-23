@@ -4,7 +4,7 @@ name: Publish Job
 
 blocks:
   - { id: job-detail, kind: readmodel, title: Job Detail }
-  - { id: publish-job, kind: command, title: Publish Job }
+  - { id: publish-job, kind: command, title: Post Job }
   - id: job
     kind: aggregate
     title: Job
