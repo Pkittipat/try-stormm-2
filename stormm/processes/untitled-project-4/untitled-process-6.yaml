@@ -2,4 +2,5 @@ schemaVersion: 1
 id: untitled-process-6
 name: Publish Job
 
-blocks: []
+blocks:
+  - { id: new-read-model, kind: readmodel, title: New read model }
