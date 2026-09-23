@@ -3,4 +3,4 @@ id: untitled-process-6
 name: Publish Job
 
 blocks:
-  - { id: new-read-model, kind: readmodel, title: New read model }
+  - { id: job-detail, kind: readmodel, title: Job Detail }
