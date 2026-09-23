@@ -9,7 +9,7 @@ blocks:
     kind: aggregate
     title: Job
     fields:
-      - { name: field, type: string }
+      - { name: id, type: string }
 
 connections:
   - { from: job-detail, to: publish-job }
