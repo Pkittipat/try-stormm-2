@@ -9,3 +9,4 @@ blocks:
 
 connections:
   - { from: job-detail, to: publish-job }
+  - { from: publish-job, to: new-aggregate }
